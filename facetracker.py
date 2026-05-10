@@ -69,6 +69,10 @@ def extract_vmc_transform(matrix):
 		qy = (m[1, 2] + m[2, 1]) / s
 		qz = 0.25 * s
 
+    # NOTE: uncomment or comment these if the head of you're
+    # characters's x rotation (yaw) is flipped from you're eyes.
+	qy = -qy
+	qz = -qz
 	return tx, ty, tz, qx, qy, qz, qw
 
 
