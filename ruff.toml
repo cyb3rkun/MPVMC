@@ -1,0 +1,6 @@
+# ruff.toml
+[format]
+indent-style = "tab"
+
+[lint]
+ignore = ["W191"]
