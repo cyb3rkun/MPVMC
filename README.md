@@ -32,5 +32,6 @@
     	cd MPVMC && \
     	wget -O ./assets/face_landmarker_v2_with_blendshapes.task -q https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task
   		```
+    - for more information visit: [Mediapipe Python Example Code for Face Landmarker](https://github.com/googlesamples/mediapipe/blob/main/examples/face_landmarker/python/%5BMediaPipe_Python_Tasks%5D_Face_Landmarker.ipynb) or [collab.research](https://colab.research.google.com/github/googlesamples/mediapipe/blob/main/examples/face_landmarker/python/%5BMediaPipe_Python_Tasks%5D_Face_Landmarker.ipynb)
    
 7. **Enjoy you're vtubing journey with mediapipe on linux :)**
