@@ -127,7 +127,6 @@ options = FaceLandmarkerOptions(
 	result_callback=res_callback,
 )
 
-cap = cv2.VideoCapture(0)
 
 ESC = 27
 
@@ -249,6 +248,10 @@ def draw_blendshapes_on_frame(frame, blendshapes):
 			font_thickness,
 		)
 
+cap = cv2.VideoCapture(0)
+# cap.set(cv2.CAP_PROP_FRAME_WIDTH, 800)
+# cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 600)
+# cap.set(cv2.CAP_PROP_FPS, 30)
 
 with FaceLandmarker.create_from_options(options) as landmarker:
 	while cap.isOpened():
